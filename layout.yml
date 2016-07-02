@@ -3,3 +3,59 @@ cut:
   y: 37.5
   width: 750
   height: 1050
+
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3
+
+number:
+  width: 90
+  height: 90
+  font: "Arial 80"
+  align: center
+number_ul:
+  extends: number
+  x: 90
+  y: 90
+  valign: top
+number_lr:
+  extends: number
+  x: 637.5
+  y: 937.5
+  valign: bottom
+
+
+character:
+  x: 150
+  y: 150
+  width: :scale
+  height: 700
+eric:
+  extends: character
+  x: += -125
+kenny:
+  extends: character
+kyle:
+  extends: character
+kyle:
+  extends: character
+stan:
+  extends: character
+  x: += 30
+tweek:
+  extends: character
+  x: += -30
+butters:
+  extends: character
+  x: += 30
+scott:
+  extends: character
+token:
+  extends: character
+craig:
+  extends: character
+  x: += 30
